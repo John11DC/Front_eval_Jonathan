@@ -1,0 +1,70 @@
+.navbar-nav{
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+
+
+
+
+.container{
+    min-height: 500px;
+    background: radial-gradient();
+  
+}
+
+.navbar-breadcrumb{
+    height: 30px;
+}
+.navbar-breadcrumb li{
+    font-size: 2em;
+}
+
+
+
+
+
+#head2{
+    height: 4em;
+    margin: 0;
+    padding: 0;
+}
+#head2 nav {
+    position: relative;
+    width: 100%;
+    height: 4rem;
+    background: #fafafa;
+    box-shadow: 0 0 5px 2px rgba(0,0,0,0.3);
+    transition: 0.5s;
+   
+}
+#head2 nav .curseur {
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    cursor: none;
+}
+
+#head2 nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 2%;
+    font-size: 2em;
+}
+
+#head2 nav ul li a {
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+    
+    font-weight: bold;
+    transition: 0.2s;
+}
+#head2 nav ul li a:hover {
+    color: rgba(0,0,0,0.8)
+}
